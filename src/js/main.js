@@ -93,7 +93,9 @@ jQuery(function ($) {
       $('.slider-footer').slick({
         dots: true,
         infinite: true,
-        arrows: false
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2500,
       });
   });
 });
