@@ -1,0 +1,20 @@
+//normalize
+@import "node_modules/normalize.css/normalize";
+@import "variables";
+@import "mixins";
+
+//components
+@import "components/forms";
+
+@import "node_modules/slick-carousel/slick/slick.scss";
+//base
+@import "base/base";
+@import "base/fonts";
+@import "base/icons";
+@import "base/typography";
+//layouts
+@import "layouts/header";
+@import "layouts/footer";
+
+//page
+@import "page/home";
